@@ -44,7 +44,6 @@ function actualizarRespuesta(opcion) {
   if (opcion === 1) { conteo.b++; respuestas.push(opciones[i][1]); }
   if (opcion === 2) { conteo.c++; respuestas.push(opciones[i][2]); }
 
-  // 👉 Mostrar en consola (fácil de entender)
   console.log("Pregunta: " + preguntas[i]);
   console.log("Respuesta: " + respuestas[respuestas.length - 1]);
   console.log("Todas las respuestas: ", respuestas);
@@ -85,7 +84,6 @@ function mostrarResultados() {
   document.getElementById("pregunta").style.display = "none";
   document.getElementById("resultado").innerHTML = mensaje;
 
-  // 👉 Mostrar todo junto al final en consola
   console.log("📋 Respuestas finales: ", respuestas);
 }
 
