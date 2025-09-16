@@ -1,0 +1,128 @@
+body {
+    background-color: #fefefe;
+}
+
+.container-fluid{
+    background-color: #ffffff;
+}
+
+.navbar {
+    background: linear-gradient(to right, #eea9ee, #feddf7, #ffc6ff);
+    padding: 30px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-nav .nav-link {
+    color: rgb(19, 19, 19) !important;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.navbar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 15px 15px;
+    transition: all 0.3s ease;
+}
+
+.navbar a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+    transform: scale(1.15);
+    color: #000000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #090608 !important;
+}
+
+.whatsapp {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-size: 28px;
+    transition: 0.3s;
+    animation: pulso 1.5s infinite;
+}
+
+.whatsapp:hover {
+    background-color: #1ebe5d;
+}
+
+/* animación */
+@keyframes pulso {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+.footer {
+  background:linear-gradient(to right, #eea9ee, #ffc6ff);
+  margin-top: 50px;
+  padding-top: 20px;
+  font-size: 17px;
+}
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nosotras {
+  border:3px solid #000000;
+  background-color: #fff0f6; 
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.nosotras .titulo {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.nosotras .descripcion {
+  text-align: justify;
+  font-size: 16px;
+  color: #444;
+}
+
+.nosotras .card {
+  background-color: #ffb6eb;
+  color: #222;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.nosotras .card-titulo {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nosotras .gata {
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px rgba(0,0,0,0.1);
+}

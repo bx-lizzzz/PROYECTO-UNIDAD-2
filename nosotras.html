@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kitty code 🐾</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="CSS/estilo.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">Kitty Code 🐾</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotras.html">Sobre Nosotras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contacto" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <h1>🚀Somos tres chicas, un mismo sueño en código✨</h1>
+  <div class="container">
+    <p class="text">💻 Somos tres chicas adolescentes apasionadas por la programación, la creatividad 🎨 y el diseño
+      ✨. Este proyecto nació porque queríamos compartir lo que aprendemos 📚 y demostrar que el código también puede ser
+      divertido 🎮 y lleno de estilo 🌸.
+
+      🚀 Nuestro objetivo es inspirar a otras chicas 👩‍💻 a unirse al mundo de la programación y mostrar que no hay
+      límites ✨ para lo que podemos lograr. A través de este sitio web 🌐 compartimos nuestros conocimientos 💡.</p>
+
+  </div>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+
+
+    <div class="carousel-inner">
+      <!-- img 1 -->
+      <div class="carousel-item active">
+        <img src="MULTIMEDIA/gata1.jpeg" class="d-block mx-auto w-50 rounded-4 shadow-lg" alt="Primera imagen">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="texto">💻 Cuatro chicas, un mismo sueño juntas aprendemos a programar y crecer en el mundo digital.
+          </p>
+        </div>
+      </div>
+      <!-- img 2 -->
+      <div class="carousel-item">
+        <img src="MULTIMEDIA/gata2.jpeg" class="d-block mx-auto w-50 rounded-4 shadow-lg" alt="Segunda imagen">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="texto">
+            🌸 Amistad y creatividad
+            porque lo mejor del código es compartirlo con amigas.</p>
+        </div>
+      </div>
+
+      <!-- img 3 -->
+      <div class="carousel-item">
+        <img src="MULTIMEDIA/gata3.jpeg" class="d-block mx-auto w-50 rounded-4 shadow-lg" alt="Tercera imagen">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="texto">🚀 Soñando en grande cada línea de código nos acerca más a nuestras metas.</p>
+        </div>
+      </div>
+
+      <!-- img 4 -->
+      <div class="carousel-item">
+        <img src="MULTIMEDIA/gatas.jpeg" class="d-block mx-auto w-50 rounded-4 shadow-lg" alt="Cuarta imagen">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="texto">💕 Nuestro mundo en rosa y en código un espacio hecho con pasión, amistad y mucho estilo.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Botón anterior -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+
+    <!-- Botón siguiente -->
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+
+  <div id="card" class="card">
+    <h2 class="letra">Test Kitty Code</h2>
+
+    <div>
+      <p id="pregunta" class="pregunta2">1. Cuando tienes un reto difícil, ¿qué haces?</p>
+      <div id="opciones" class="buttons">
+        <button onclick="actualizarRespuesta(0)" id="a">Lo intento varias veces hasta resolverlo</button> <br> <br>
+        <button onclick="actualizarRespuesta(1)" id="b">Me frustro un poco, pero busco otra forma</button> <br> <br>
+        <button onclick="actualizarRespuesta(2)" id="c">Prefiero dejarlo y hacer otra cosa</button> <br> <br>
+      </div>
+    </div>
+
+    <div class="resultado" id="resultado"></div>
+  </div>
+
+
+  <a href="https://wa.me/51999999999" target="_blank" class="whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer class="footer text-center text-white">
+      <h5>✨ Kitty Code ✨</h5>
+      © 2025 Kitty Code | Todos los derechos reservados
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+
+<script src="JS/script.js"></script>
+</body>
+</html>
